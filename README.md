@@ -1,77 +1,70 @@
-# React Router demo project
+# Getting Started with Create React App
 
-This project was created for the "Frontend Junior Developer" course to demonstrate the migration from React Router version 5 to version 6
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Librares**
+## Available Scripts
 
-Below are the libraries used in this project and links to them.
+In the project directory, you can run:
 
-## Tailwindcss
+### `npm start`
 
-<p>
-  <a href="https://tailwindcss.com/#gh-light-mode-only">
-    <img src="./.github/tailwind-logo-light.svg" alt="Tailwind CSS" width="auto" height="70">
-  </a>
-  <a href="https://tailwindcss.com/#gh-dark-mode-only">
-    <img src="./.github/tailwind-logo-dark.svg" alt="Tailwind CSS" width="350" height="70">
-  </a>
-</p>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-A utility-first CSS framework for rapidly building custom user interfaces.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-| [Docs](https://tailwindcss.com/docs/installation) | [Install with CRA](https://tailwindcss.com/docs/guides/create-react-app) |
+### `npm test`
 
-#### Additional plugins
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
--   Official Tailwind CSS Typography plugin [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
--   Multi-line truncation with [@tailwindcss/line-clamp](https://tailwindcss.com/blog/multi-line-truncation-with-tailwindcss-line-clamp)
--   Utility function to efficiently merge Tailwind CSS classes in JS without style conflicts. [tailwind-merge](https://github.com/dcastil/tailwind-merge)
+### `npm run build`
 
-## Mirage JS
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<p>
-  <a href="https://miragejs.com/#gh-light-mode-only">
-    <img src="./.github/mirage-logo-light.svg" alt="Mirage js" width="auto" height="70">
-  </a>
-  <a href="https://miragejs.com/#gh-dark-mode-only">
-    <img src="./.github/mirage-logo-dark.svg" alt="Mirage js" width="auto" height="70">
-  </a>
-</p>
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Mirage JS is an API mocking library that lets you build, test and share a complete working JavaScript application without having to rely on any backend services.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-| [Tutorial](https://miragejs.com/tutorial/intro/) | [Guides](https://miragejs.com/docs/getting-started/introduction/) | [API Docs](https://miragejs.com/api/classes/association/) |
+### `npm run eject`
 
-## @faker-js/faker
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-  <a href="https://fakerjs.dev/">
-      <img src="./.github/faker-logo.svg" width="auto" height="35" alt="Faker JS" /> Faker
-  </a>
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Generate massive amounts of fake (but realistic) data for testing and development.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-| [Docs](https://fakerjs.dev/guide/) |
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Formic
+## Learn More
 
-<p>
-  <a href="https://formik.org/">
-      <img src="https://user-images.githubusercontent.com/4060187/61057426-4e5a4600-a3c3-11e9-9114-630743e05814.png" width="auto" height="70" alt="Formik.js" />
-  </a>
-</p>
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-**Build forms in React, without the tears.** Formik is the world's most popular open source form library for React and React Native.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-| [Docs](https://formik.org/docs/overview) |
+### Code Splitting
 
-## YUP
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Yup is a schema builder for runtime value parsing and validation. Define a schema, transform a value to match, assert the shape of an existing value, or both. Yup schema are extremely expressive and allow modeling complex, interdependent validations, or value transformation.
+### Analyzing the Bundle Size
 
-| [Docs](https://github.com/jquense/yup) |
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## Nano ID
+### Making a Progressive Web App
 
-A tiny, secure, URL-friendly, unique string ID generator for JavaScript.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-| [Docs](https://github.com/ai/nanoid#readme) |
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
